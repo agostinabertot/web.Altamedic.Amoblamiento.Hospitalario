@@ -1,0 +1,25 @@
+.titulo {
+    color: #709fb0;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.social {
+    flex: 1 1 auto;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    color: #709fb0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mapaCol {
+    margin-top: 140px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.formulario {
+    margin-top: 85px;
+    /* margin-left: 50px; */
+}

@@ -1,0 +1,15 @@
+.menu {
+    color: #a6f6f1 !important;
+    letter-spacing: 1px;
+    padding-right: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+}
+
+.submenu {
+    color: #709fb0 !important;
+    letter-spacing: 1px;
+    padding-right: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
