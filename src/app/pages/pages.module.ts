@@ -6,12 +6,14 @@ import { ContactoComponent } from './contacto/contacto.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { PagesRoutingModule } from './pages-routing.module';
 import { ServiciosComponent } from './servicios/servicios.component';
-import { EntradaComponent } from './entrada/entrada.component';
+import { AnmatComponent } from './anmat/anmat.component';
+
+
 
 
 @NgModule({
-  declarations: [ InicioComponent, ContactoComponent, NosotrosComponent, ServiciosComponent, EntradaComponent],
-  exports: [ InicioComponent, ContactoComponent, NosotrosComponent, ServiciosComponent],
+  declarations: [ InicioComponent, ContactoComponent, NosotrosComponent, ServiciosComponent, AnmatComponent],
+  exports: [ InicioComponent, ContactoComponent, NosotrosComponent, ServiciosComponent, AnmatComponent],
   imports: [
     CommonModule,
     PagesRoutingModule
