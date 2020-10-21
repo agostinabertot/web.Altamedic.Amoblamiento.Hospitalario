@@ -12,7 +12,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build --prod --base-href="https://agostinabertot.github.io/web.Altamedic.Amoblamiento.Hospitalario/"` to build the project and deploy it to Github Pages. The build artifacts will be stored in the `docs/` directory.
+Run `ng build --prod` to build the project and deploy it to Github Pages. The build artifacts will be stored in the `docs/` directory.
 
 ## Running unit tests
 
