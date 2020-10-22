@@ -15,12 +15,13 @@ import { TaburetesComponent } from './taburetes/taburetes.component';
 import { PortaTubosComponent } from './porta-tubos/porta-tubos.component';
 import { CunasComponent } from './cunas/cunas.component';
 import { PedicuriaComponent } from './pedicuria/pedicuria.component';
+import { KinesioComponent } from './kinesio/kinesio.component';
 
 
 
 @NgModule({
-  declarations: [CamasManualesComponent, CamasElectricasComponent, TransporteComponent, CamillasComponent, CarrosComponent, PortasuerosComponent, BiombosComponent, MesasComponent, CamaOrtopedicaComponent, CamaTerapiaComponent, TaburetesComponent, PortaTubosComponent, CunasComponent, PedicuriaComponent],
-  exports: [CamasManualesComponent, CamasElectricasComponent, TransporteComponent, CamillasComponent, CarrosComponent, PortasuerosComponent, BiombosComponent, MesasComponent, CamaOrtopedicaComponent, CamaTerapiaComponent, TaburetesComponent, PortaTubosComponent, CunasComponent, PedicuriaComponent],
+  declarations: [CamasManualesComponent, CamasElectricasComponent, TransporteComponent, CamillasComponent, CarrosComponent, PortasuerosComponent, BiombosComponent, MesasComponent, CamaOrtopedicaComponent, CamaTerapiaComponent, TaburetesComponent, PortaTubosComponent, CunasComponent, PedicuriaComponent, KinesioComponent],
+  exports: [CamasManualesComponent, CamasElectricasComponent, TransporteComponent, CamillasComponent, CarrosComponent, PortasuerosComponent, BiombosComponent, MesasComponent, CamaOrtopedicaComponent, CamaTerapiaComponent, TaburetesComponent, PortaTubosComponent, CunasComponent, PedicuriaComponent, KinesioComponent],
   imports: [
     CommonModule,
     ProductosRoutingModule
