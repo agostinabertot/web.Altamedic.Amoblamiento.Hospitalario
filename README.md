@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0d4b043a-2ec7-4f55-87e8-ffd5e505fbde/deploy-status)](https://app.netlify.com/sites/elastic-minsky-3621c1/deploys)
+
 # Altamedic
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.3.

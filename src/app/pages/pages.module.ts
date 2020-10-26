@@ -1,22 +1,31 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-import { InicioComponent } from './inicio/inicio.component';
+import { NgModule } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
+import { AnmatComponent } from './anmat/anmat.component';
 import { ContactoComponent } from './contacto/contacto.component';
+import { InicioComponent } from './inicio/inicio.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { PagesRoutingModule } from './pages-routing.module';
 import { ServiciosComponent } from './servicios/servicios.component';
-import { AnmatComponent } from './anmat/anmat.component';
 
-
-
-
+const components = [
+  InicioComponent,
+  ContactoComponent,
+  NosotrosComponent,
+  ServiciosComponent,
+  AnmatComponent
+]
 @NgModule({
-  declarations: [ InicioComponent, ContactoComponent, NosotrosComponent, ServiciosComponent, AnmatComponent],
-  exports: [ InicioComponent, ContactoComponent, NosotrosComponent, ServiciosComponent, AnmatComponent],
+  declarations: [
+    ...components
+  ],
+  exports: [
+    ...components
+  ],
   imports: [
     CommonModule,
-    PagesRoutingModule
+    PagesRoutingModule,
+    ReactiveFormsModule,
   ]
 })
 export class PagesModule { }
