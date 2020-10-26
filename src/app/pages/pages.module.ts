@@ -8,6 +8,7 @@ import { InicioComponent } from './inicio/inicio.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { PagesRoutingModule } from './pages-routing.module';
 import { ServiciosComponent } from './servicios/servicios.component';
+import { SuccessComponent } from './success/success.component';
 
 const components = [
   InicioComponent,
@@ -18,7 +19,8 @@ const components = [
 ]
 @NgModule({
   declarations: [
-    ...components
+    ...components,
+    SuccessComponent
   ],
   exports: [
     ...components
