@@ -7,6 +7,9 @@ import { PagesModule } from './pages/pages.module';
 import { SharedModule } from './shared/shared.module';
 import { ProductosModule } from './pages/productos/productos.module';
 
+
+
+
 @NgModule({
   declarations: [
     AppComponent

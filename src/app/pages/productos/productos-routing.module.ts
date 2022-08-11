@@ -16,6 +16,8 @@ import { PortaTubosComponent } from './porta-tubos/porta-tubos.component';
 import { CunasComponent } from './cunas/cunas.component';
 import { PedicuriaComponent } from './pedicuria/pedicuria.component';
 import { KinesioComponent } from './kinesio/kinesio.component';
+import { SillonesComponent } from './sillones/sillones.component';
+
 
 
 const routes: Routes = [
@@ -34,6 +36,7 @@ const routes: Routes = [
   { path: 'productos/cunas', component: CunasComponent},
   { path: 'productos/pedicuria', component: PedicuriaComponent},
   { path: 'productos/kinesiologia', component: KinesioComponent},
+  { path: 'productos/sillones', component: SillonesComponent},
   { path: '', component: InicioComponent},
 ];
 
